@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa" rx="10" />
+  
+  <!-- Headphone Band -->
+  <path d="M120,150 C120,100 280,100 280,150" fill="none" stroke="#212529" stroke-width="15" stroke-linecap="round" />
+  
+  <!-- Left Ear Cup -->
+  <circle cx="120" cy="150" r="30" fill="#212529" />
+  <circle cx="120" cy="150" r="20" fill="#495057" />
+  <circle cx="120" cy="150" r="15" fill="#343a40" />
+  
+  <!-- Right Ear Cup -->
+  <circle cx="280" cy="150" r="30" fill="#212529" />
+  <circle cx="280" cy="150" r="20" fill="#495057" />
+  <circle cx="280" cy="150" r="15" fill="#343a40" />
+  
+  <!-- Wireless Symbol -->
+  <path d="M190,120 C200,110 210,110 220,120 M185,110 C200,95 210,95 225,110 M180,100 C200,80 210,80 230,100" fill="none" stroke="#4dabf7" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Product Name -->
+  <rect x="100" y="260" width="200" height="30" rx="5" fill="#4dabf7" />
+  <text x="200" y="280" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Wireless Headphones</text>
+</svg>

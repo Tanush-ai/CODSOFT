@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <!-- Background space -->
+  <rect width="800" height="800" fill="#000B1E"/>
+  
+  <!-- Earth glow effect -->
+  <circle cx="400" cy="400" r="300" fill="url(#earthGlow)" />
+  
+  <!-- Earth base -->
+  <circle cx="400" cy="400" r="280" fill="url(#earthGradient)" />
+  
+  <!-- Continents and landmasses -->
+  <g fill="#4C8C2B" opacity="0.9">
+    <!-- North America -->
+    <path d="M250,200 C270,180 290,170 320,180 C350,190 370,170 390,160 C410,150 430,160 440,180 C450,200 470,210 460,230 C450,250 430,260 410,270 C390,280 370,290 350,280 C330,270 310,280 290,270 C270,260 250,250 240,230 C230,210 230,220 250,200 Z" />
+    
+    <!-- South America -->
+    <path d="M320,320 C330,310 350,300 370,310 C390,320 400,340 390,360 C380,380 370,400 350,410 C330,420 310,410 300,390 C290,370 300,350 320,320 Z" />
+    
+    <!-- Europe -->
+    <path d="M450,200 C470,190 490,200 500,220 C510,240 520,260 510,280 C500,300 480,310 460,300 C440,290 430,270 440,250 C450,230 430,210 450,200 Z" />
+    
+    <!-- Africa -->
+    <path d="M450,300 C470,290 490,300 510,320 C530,340 540,370 530,400 C520,430 500,450 470,440 C440,430 420,410 410,380 C400,350 410,320 430,310 C450,300 430,310 450,300 Z" />
+    
+    <!-- Asia -->
+    <path d="M520,200 C550,190 580,200 600,220 C620,240 630,270 620,300 C610,330 590,350 560,360 C530,370 500,360 480,340 C460,320 470,290 490,270 C510,250 490,210 520,200 Z" />
+    
+    <!-- Australia -->
+    <path d="M580,400 C600,390 620,400 630,420 C640,440 630,460 610,470 C590,480 570,470 560,450 C550,430 560,410 580,400 Z" />
+    
+    <!-- Antarctica -->
+    <path d="M350,500 C380,490 420,500 450,520 C480,540 490,570 470,590 C450,610 410,620 370,610 C330,600 310,570 320,540 C330,510 320,510 350,500 Z" />
+  </g>
+  
+  <!-- Cloud patterns -->
+  <g fill="#FFFFFF" opacity="0.5">
+    <ellipse cx="300" cy="200" rx="40" ry="20" transform="rotate(-20 300 200)" />
+    <ellipse cx="500" cy="300" rx="60" ry="25" transform="rotate(15 500 300)" />
+    <ellipse cx="350" cy="450" rx="50" ry="20" transform="rotate(-10 350 450)" />
+    <ellipse cx="600" cy="400" rx="30" ry="15" transform="rotate(25 600 400)" />
+    <ellipse cx="200" cy="350" rx="45" ry="20" transform="rotate(5 200 350)" />
+  </g>
+  
+  <!-- Atmosphere highlight -->
+  <circle cx="400" cy="400" r="280" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="10" />
+  
+  <!-- Definitions -->
+  <defs>
+    <!-- Earth base gradient -->
+    <radialGradient id="earthGradient" cx="40%" cy="40%" r="60%" fx="40%" fy="40%">
+      <stop offset="0%" stop-color="#1E5799" />
+      <stop offset="50%" stop-color="#207cca" />
+      <stop offset="100%" stop-color="#1E5799" />
+    </radialGradient>
+    
+    <!-- Earth glow effect -->
+    <radialGradient id="earthGlow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="80%" stop-color="rgba(30,87,153,0)" />
+      <stop offset="100%" stop-color="rgba(77,183,249,0.3)" />
+    </radialGradient>
+  </defs>
+</svg>

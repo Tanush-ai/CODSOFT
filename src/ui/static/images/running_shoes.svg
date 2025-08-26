@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa" rx="10" />
+  
+  <!-- Feature Icons and Labels -->
+  <g transform="translate(200, 150)">
+    <!-- Cushioning Feature -->
+    <g transform="translate(-120, -60)">
+      <circle cx="0" cy="0" r="30" fill="#51cf66" />
+      <path d="M-15,-10 C-15,10 15,10 15,-10" fill="none" stroke="white" stroke-width="3" />
+      <path d="M-15,-5 C-15,15 15,15 15,-5" fill="none" stroke="white" stroke-width="2" />
+      <text x="0" y="40" font-family="Arial" font-size="12" text-anchor="middle" fill="#343a40">Cushioned Sole</text>
+    </g>
+    
+    <!-- Breathability Feature -->
+    <g transform="translate(0, -60)">
+      <circle cx="0" cy="0" r="30" fill="#4dabf7" />
+      <path d="M-15,-15 L15,15 M-15,15 L15,-15" stroke="white" stroke-width="2" />
+      <circle cx="0" cy="0" r="10" fill="none" stroke="white" stroke-width="2" />
+      <text x="0" y="40" font-family="Arial" font-size="12" text-anchor="middle" fill="#343a40">Breathable Mesh</text>
+    </g>
+    
+    <!-- Lightweight Feature -->
+    <g transform="translate(120, -60)">
+      <circle cx="0" cy="0" r="30" fill="#fab005" />
+      <path d="M-10,0 L10,0 M0,-10 L0,10" stroke="white" stroke-width="3" />
+      <circle cx="0" cy="0" r="15" fill="none" stroke="white" stroke-width="2" />
+      <text x="0" y="40" font-family="Arial" font-size="12" text-anchor="middle" fill="#343a40">Lightweight</text>
+    </g>
+    
+    <!-- Durability Feature -->
+    <g transform="translate(-60, 60)">
+      <circle cx="0" cy="0" r="30" fill="#fa5252" />
+      <path d="M-15,-15 h30 v30 h-30 z" fill="none" stroke="white" stroke-width="2" />
+      <path d="M-5,-5 h10 v10 h-10 z" fill="white" />
+      <text x="0" y="40" font-family="Arial" font-size="12" text-anchor="middle" fill="#343a40">Durable</text>
+    </g>
+    
+    <!-- Support Feature -->
+    <g transform="translate(60, 60)">
+      <circle cx="0" cy="0" r="30" fill="#7950f2" />
+      <path d="M-15,0 C-15,-15 15,-15 15,0 C15,15 -15,15 -15,0 Z" fill="none" stroke="white" stroke-width="2" />
+      <path d="M-5,0 L5,0" stroke="white" stroke-width="2" />
+      <text x="0" y="40" font-family="Arial" font-size="12" text-anchor="middle" fill="#343a40">Arch Support</text>
+    </g>
+  </g>
+  
+  <!-- Product Title -->
+  <rect x="100" y="250" width="200" height="30" rx="5" fill="#51cf66" />
+  <text x="200" y="270" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Running Shoe Features</text>
+</svg>

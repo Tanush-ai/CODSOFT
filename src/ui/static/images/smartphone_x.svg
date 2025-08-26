@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa" rx="10" />
+  
+  <!-- Smartphone Outline -->
+  <rect x="150" y="50" width="100" height="200" rx="10" fill="#343a40" />
+  <rect x="155" y="60" width="90" height="170" rx="5" fill="#4dabf7" />
+  
+  <!-- Camera -->
+  <circle cx="200" cy="75" r="8" fill="#343a40" />
+  <circle cx="200" cy="75" r="4" fill="#adb5bd" />
+  
+  <!-- Home Button -->
+  <circle cx="200" cy="240" r="10" fill="#adb5bd" />
+  
+  <!-- Screen Elements -->
+  <rect x="170" y="90" width="60" height="10" rx="2" fill="white" opacity="0.7" />
+  <rect x="170" y="110" width="40" height="40" rx="5" fill="white" opacity="0.5" />
+  <rect x="170" y="160" width="60" height="8" rx="2" fill="white" opacity="0.7" />
+  <rect x="170" y="175" width="60" height="8" rx="2" fill="white" opacity="0.7" />
+  <rect x="170" y="190" width="40" height="8" rx="2" fill="white" opacity="0.7" />
+  
+  <!-- Product Name -->
+  <rect x="100" y="260" width="200" height="30" rx="5" fill="#4dabf7" />
+  <text x="200" y="280" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Smartphone X</text>
+</svg>
